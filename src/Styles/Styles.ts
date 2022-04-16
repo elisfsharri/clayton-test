@@ -20,16 +20,26 @@ const useStyles = makeStyles((theme) => createStyles({
     textAlign: 'left'
   },
   craftList: {
-    minHeight: 500,
+    height: '70vh',
     display: 'flex',
-    flexDirection: 'column'
+    flexDirection: 'column',
+    overflowY: 'scroll',
+    '&::-webkit-scrollbar': {
+      width: 5
+    },
+    '&::-webkit-scrollbar-track': {
+      backgroundColor: 'lightgrey'
+    },
+    '&::-webkit-scrollbar-thumb': {
+      backgroundColor: 'grey',
+      borderRadius: 20
+    }
   },
   footer: {
     width: '100%',
     display: 'flex',
     justifyContent: 'flex-end',
-    alignItems: 'right',
-    marginBottom: '5rem'
+    alignItems: 'right'
   },
   pagination: {
     '& .MuiPaginationItem-icon': {
