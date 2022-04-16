@@ -17,7 +17,7 @@ function App() {
   const [lastPage, setLastPage] = useState(0)
 
   const handleSearch = async () => {
-    const url = `https://stapi.co/api/v1/rest/spacecraft/search?name=${craftName}&pageSize=${pageSize}&pageNumber=${pageNumber-1}`
+    const url = `http://stapi.co/api/v1/rest/spacecraft/search?name=${craftName}&pageSize=${pageSize}&pageNumber=${pageNumber-1}`
     const result = await fetch(url, {method: 'post'})
     const input = await result.json()
     setLastPage(input.page.totalPages)
