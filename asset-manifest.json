@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.js": "/clayton-test/static/js/main.cbf6729a.js",
+    "main.js": "/clayton-test/static/js/main.e950d473.js",
     "static/js/787.f07516c8.chunk.js": "/clayton-test/static/js/787.f07516c8.chunk.js",
     "index.html": "/clayton-test/index.html",
-    "main.cbf6729a.js.map": "/clayton-test/static/js/main.cbf6729a.js.map",
+    "main.e950d473.js.map": "/clayton-test/static/js/main.e950d473.js.map",
     "787.f07516c8.chunk.js.map": "/clayton-test/static/js/787.f07516c8.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.cbf6729a.js"
+    "static/js/main.e950d473.js"
   ]
 }
