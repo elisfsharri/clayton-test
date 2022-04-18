@@ -27,6 +27,7 @@ function App() {
   useEffect(() => {handleSearch()}, [update])
 
   const onNameChange = (event: { target: { value: SetStateAction<string> } }) => {
+    if (pageNumber>1) {setPageNumber(1)}
     setCraftName(event.target.value)
     setUpdate(!update)
   }
